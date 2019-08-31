@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail Suite" duration-ms="62129" started-at="2019-08-31T10:15:38Z" finished-at="2019-08-31T10:16:40Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="38616" started-at="2019-08-31T10:15:38Z" finished-at="2019-08-31T10:16:17Z">
+      <class name="com.demo1.Demo_Double_clicks_onElement">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo1.Demo_Double_clicks_onElement@55f3ddb1]" name="beforeTest" is-config="true" duration-ms="14572" started-at="2019-08-31T10:15:38Z" finished-at="2019-08-31T10:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Double_clicks_onElement()[pri:0, instance:com.demo1.Demo_Double_clicks_onElement@55f3ddb1]" name="Double_clicks_onElement" duration-ms="7311" started-at="2019-08-31T10:15:53Z" finished-at="2019-08-31T10:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Double_clicks_onElement -->
+        <test-method status="PASS" signature="Dynamically_Identify_Tables_Data()[pri:0, instance:com.demo1.Demo_Double_clicks_onElement@55f3ddb1]" name="Dynamically_Identify_Tables_Data" duration-ms="14035" started-at="2019-08-31T10:16:00Z" finished-at="2019-08-31T10:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dynamically_Identify_Tables_Data -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo1.Demo_Double_clicks_onElement@55f3ddb1]" name="afterTest" is-config="true" duration-ms="2183" started-at="2019-08-31T10:16:14Z" finished-at="2019-08-31T10:16:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.demo1.Demo_Double_clicks_onElement -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="23270" started-at="2019-08-31T10:16:17Z" finished-at="2019-08-31T10:16:40Z">
+      <class name="com.demo2.Demo_dragAndDrop">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo2.Demo_dragAndDrop@685cb137]" name="beforeTest" is-config="true" duration-ms="7402" started-at="2019-08-31T10:16:17Z" finished-at="2019-08-31T10:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Drag_and_Drop()[pri:0, instance:com.demo2.Demo_dragAndDrop@685cb137]" name="Drag_and_Drop" duration-ms="4879" started-at="2019-08-31T10:16:24Z" finished-at="2019-08-31T10:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Drag_and_Drop -->
+        <test-method status="PASS" signature="Select_multiple_values_from_the_list()[pri:0, instance:com.demo2.Demo_dragAndDrop@685cb137]" name="Select_multiple_values_from_the_list" duration-ms="8359" started-at="2019-08-31T10:16:29Z" finished-at="2019-08-31T10:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_multiple_values_from_the_list -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo2.Demo_dragAndDrop@685cb137]" name="afterTest" is-config="true" duration-ms="2621" started-at="2019-08-31T10:16:37Z" finished-at="2019-08-31T10:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.demo2.Demo_dragAndDrop -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Gmail Suite -->
+</testng-results>

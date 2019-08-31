@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests">
+         
+  <test name="Test1">
+	 <classes>
+	   <class name="com.demo1.Demo_Double_clicks_onElement"/>
+	 </classes>
+   </test>
+   
+  <test name="Test2">
+     <classes>
+       <class name="com.demo2.Demo_dragAndDrop"/>
+     </classes>
+   </test>
+</suite>
